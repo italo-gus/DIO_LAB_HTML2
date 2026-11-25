@@ -1,0 +1,242 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: arial, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+header > form {
+  margin-left: 20px;
+}
+.logotipos {
+  width: fit-content;
+  display: flex; /* Alinha os filhos em linha por padrão (row) */
+  flex-direction: row; /* Explícito: direção horizontal */
+  margin-left: 10px;
+  padding: 0;
+  border: 0px;
+}
+
+.logotipo-image {
+  width: fit-content;
+  margin: 0;
+  padding: 0;
+  border: 0px;
+  display: flex; /* Alinha os filhos em linha por padrão (row) */
+  align-items: center; /* centraliza na vertical */
+}
+.logotipo-image > figure {
+  width: fit-content;
+  margin: 0;
+  padding: 0;
+  border: 0px;
+}
+.logotipo-image > figure > img {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  border: 0px;
+}
+.logotipo-text {
+  width: fit-content;
+  margin: 0;
+  padding: 0;
+  border: 0px;
+  display: flex; /* Alinha os filhos em linha por padrão (row) */
+  flex-direction: column; /* Explícito: direção vertical */
+  justify-content: center; /* centraliza na vertical */
+}
+.logotipo-text > figure {
+  width: fit-content;
+  margin: 0;
+  padding: 0;
+  border: 0px;
+}
+.logo-wordmark {
+  width: fit-content;
+  width: 7.4375em;
+  height: 1.125em;
+  margin: 0;
+  padding: 0;
+  border: 0px;
+}
+
+.logo-tagline {
+  width: fit-content;
+  width: 7.5em;
+  height: 0.8125em;
+  margin: 0;
+  padding: 0;
+  border: 0px;
+}
+
+.layout {
+  width: 100%;
+  height: 100%;
+  margin: 10px 0 0 0;
+  padding: 0;
+  border: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+nav {
+  width: fit-content;
+  margin: 10px;
+  padding: 0px;
+  border: 0px;
+  text-align: center;
+}
+
+nav > ul {
+  list-style-type: none;
+}
+
+nav > ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+nav > ul > li {
+  margin: 15px 10px;
+  padding: 5px;
+  border: 0px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  text-align: center;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 0px;
+  border: 0px;
+  margin: 0;
+}
+nav a:visited {
+  color: black;
+}
+
+.main-nav {
+  width: 15%;
+  max-width: 180px;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0 10px 0 10px;
+  border: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: normal;
+}
+
+main > section {
+  text-align: justify;
+  margin: 10px 0 0 0;
+}
+
+figure {
+  width: 250px;
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 15px 0 15px 15px;
+  padding: 0;
+  border: 0;
+  float: right;
+}
+
+article a {
+  color: black;
+  text-decoration: none;
+  font-style: italic;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+article a:visited {
+  color: black;
+}
+
+.div-acompanha {
+  position: sticky;
+  top: 0px;
+}
+
+.divtabela3 {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: normal;
+  gap: 15px; /* Cria 15px de espaço entre cada elemento filho */
+}
+
+.figuretabela {
+  width: 250px;
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.tabelaformato {
+  width: 100%;
+  margin: 0 auto; /* Centraliza horizontalmente */
+  border-spacing: 0px; /*<table cellspacing=""> */
+
+  border: solid 1px black;
+
+  th,
+  td {
+    text-align: center;
+  }
+  thead th {
+    background-color: #f1f1f1;
+    color: black;
+  } /* na estrutura da tabela necessita de cellspacing="0" */
+  tfoot td {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  tbody tr:nth-child(even) td {
+    background-color: #f1f1f1;
+  } /* serve para fazer o zebrado,mudando as cores das linhas pares*/
+
+  tbody tr:hover td {
+    background-color: #dcdcdc;
+    cursor: default;
+  } /*Mudar cor e ponteiro do mouse ao passar o mouse*/
+}
+
+footer {
+  padding: 5px;
+  border: 0px;
+  margin: 0px;
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  background-color: #f1f1f1;
+}

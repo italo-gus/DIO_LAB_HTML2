@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      property="article:published_time"
+      content="2026-11-24T00:06:00-03:00"
+    />
+    <title>Wikipédia</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Sushi",
+        "datePublished": "2026-11-24T00:06:00-03:00",
+        "dateModified": "2026-11-24T00:06:00-03:00"
+      }
+    </script>
+  </head>
+  <body>
+    <header id="topo_da_pagina">
+      <span id="logotipos" class="logotipos">
+        <span class="logotipo-image">
+          <figure class="figuredireita">
+            <img
+              src="assets/images/wikipedia.png"
+              alt="Logotipo da Wikipédia. Circulo com sombreamento dando ideia de ser um globo terrestre, formado por peças de quebra-cabeça cada um uma letra de caligrafias diferentes de idiomas diferentes e faltam algumas peças no topo dando ideia em processo de criação."
+            />
+          </figure>
+        </span>
+
+        <span class="logotipo-text">
+          <figure>
+            <img
+              src="assets/images/wikipedia-wordmark-fr.svg"
+              alt="Logotipo tipográfico da Wikipédia"
+              class="logo-wordmark"
+            />
+          </figure>
+          <figure>
+            <img
+              src="assets/images/wikipedia-tagline-pt.svg"
+              alt="Logotipo Tagline Wikipédia. A enciclopédia livre"
+              class="logo-tagline"
+            />
+          </figure>
+        </span>
+      </span>
+      <form
+        id="form-google"
+        action="https://www.google.com/search"
+        method="search"
+        target="_blank"
+      >
+        <input type="text" id="termo" placeholder="Digite o assunto" required />
+        <input type="hidden" id="q-final" name="q" />
+        <button type="submit">Procurar</button>
+      </form>
+      <script>
+        document
+          .getElementById("form-google")
+          .addEventListener("submit", function () {
+            const termo = document.getElementById("termo").value;
+            document.getElementById("q-final").value = `wikipedia ${termo}`;
+          });
+      </script>
+
+      <div class="bar"></div>
+    </header>
+    <div class="layout">
+      <nav id="main-nav" class="main-nav" aria-label="Main">
+        <h2>Título</h2>
+        <ul>
+          <li><a href="index.html">Sushi</a></li>
+        </ul>
+      </nav>
+      <main>
+        <section>
+          <h1><strong>Sushi</strong></h1>
+          <p>
+            Sushi (すし, 寿司, 鮨; pronunciado [sɯꜜɕi] ou [sɯɕiꜜ]) é um prato da
+            culinária japonesa que possui origem numa antiga técnica de
+            conservação da carne de peixe em arroz avinagrado. O sushi, na forma
+            em que é conhecido atualmente, tem cerca de 200 anos; inicialmente,
+            era vendido em barracas, como comida de rua, numa espécie de fast
+            food.
+          </p>
+          <p>
+            O sushi, tradicionalmente, é feito com arroz temperado com molho de
+            vinagre, açúcar e sal, combinado com algum tipo de peixe ou fruto do
+            mar, vegetais ou ovo. A tradição japonesa é de servi-lo acompanhado
+            de wasabi (pasta de raiz forte).
+          </p>
+        </section>
+        <section>
+          <figure>
+            <img
+              src="assets/images/Sushi_platter_250.jpg"
+              alt="Prato com diversos tipos de sushi, incluindo nigiri, maki e sashimi, decorados com folhas verdes."
+            />
+            <figcaption>Prato de sushi.</figcaption>
+          </figure>
+
+          <h2 id="historia">História</h2>
+          <article>
+            <p>
+              Ver artigo principal :
+              <a href="https://pt.wikipedia.org/wiki/Hist%C3%B3ria_do_sushi"
+                >História do sushi</a
+              >
+            </p>
+
+            <time pubdate datetime="2025-09-26 17:40"></time>
+            <address>
+              <a
+                href="https://pt.wikipedia.org/wiki/Hist%C3%B3ria_do_sushi"
+              ></a>
+            </address>
+          </article>
+
+          <p>
+            A forma tradicional do sushi é peixe fermentado e arroz, conservados
+            com sal, em um processo originário do Sudeste Asiático, onde ainda
+            continua popular nos dias de hoje.
+          </p>
+
+          <p>
+            O termo sushi vem de uma forma gramatical arcaica, com significado
+            de "Risoto Japonês", não usada mais em outros contextos e significa,
+            literalmente, "é azedo", num reflexo das suas raízes históricas de
+            alimento fermentado.
+          </p>
+
+          <p>
+            A ciência por trás da fermentação do peixe embalado no arroz é que o
+            vinagre produzido a partir da fermentação do arroz quebra a proteína
+            do peixe em aminoácidos. Isso resulta em um dos cinco paladares
+            básicos, chamado umami em japonês. A forma mais antiga de sushi no
+            Japão, narezushi, ainda se assemelha muito com esse processo. No
+            Japão, o narezushi evoluiu para oshizushi e, por último, para edomae
+            nigirizushi, que é o alimento conhecido mundialmente apenas como
+            "sushi".
+          </p>
+
+          <p>
+            Atualmente, o sushi japonês preserva poucas semelhanças com o
+            tradicional prato de arroz lactofermentado. Originalmente, quando o
+            peixe fermentado era tirado do arroz, apenas o peixe era consumido e
+            o arroz fermentado era descartado. O funazushi de gosto e cheiro
+            fortes, um tipo de narezushi feito próximo ao lago Biwa, no Japão, é
+            o que mais lembra a forma tradicional de preparação do sushi
+            fermentado.
+          </p>
+          <figure>
+            <img
+              src="assets/images/Hiroshige_Bowl_of_Sushi.jpg"
+              width="250"
+              alt="Gravura de prato com diversos tipos de sushi, decorados com folhas verdes. Com o nome Sushi, feita por Utagawa Hiroshige, na era Edo"
+            />
+            <figcaption>Sushi, por Rirochigue, na era Edo.</figcaption>
+          </figure>
+          <p>
+            Iniciando-se no período Muromachi (1336-1573), o vinagre foi
+            adicionado à mistura peixe-arroz, para dar um melhor paladar e
+            conservação. O vinagre acentuava o azedume do arroz, aumentando seu
+            tempo de conservação e permitindo que o processo de fermentação
+            encurtasse, acabando por ser abandonado na preparação do prato. Nos
+            séculos seguintes, o sushi de Osaka evoluiu para o oshi-zushi.
+            Frutos do mar e arroz eram prensados usando-se uma esteira de bambu.
+            Em meados do século XIII, essa forma de preparação chegou a Edo (a
+            atual Tóquio).
+          </p>
+
+          <p>
+            A versão contemporânea, internacionalmente conhecida apenas por
+            sushi, foi desenvolvida por Hanaya Yohei (華屋与兵衛; 1799–1858) no
+            final da era Edo. Essa técnica era uma forma primitiva de fast-food
+            que não era fermentada, pois era preparada rapidamente, e que podia
+            ser comida em bancas armadas na rua ou em teatros.[2] Nessa época,
+            esse tipo de sushi ficou conhecido como edomae zushi, pois era
+            produzido com peixes frescos pescados em Edomae (a atual Baía de
+            Tóquio). Apesar de hoje em dia os peixes não virem mais desse lugar,
+            o sushi ali produzido ainda é formalmente conhecido como edomae
+            nigirizushi.
+          </p>
+        </section>
+        <section>
+          <figure>
+            <img
+              src="assets/images/Typical_japanese_sushi_set.jpg"
+              width="250"
+              alt="Prato retangula de plastico preto com diversos tipos de sushi decorados com folhas verdes."
+            />
+            <figcaption>
+              O sushi é, geralmente, vendido em bandejas de plástico
+            </figcaption>
+          </figure>
+          <h2>Nutrição</h2>
+          <p>
+            Os principais ingredientes do sushi tradicional, peixe cru e arroz,
+            possuem baixas taxas de gordura, altas taxas de proteína,
+            carboidratos, vitaminas, minerais e omega-3 (nos sushis com peixe).
+            O mesmo não ocorre com o sushi no estilo ocidental, que adiciona,
+            cada vez mais, ingredientes não tradicionais, tais como maionese,
+            abacate e creme de queijo.
+          </p>
+          <p>
+            Peixe, tofu, frutos do mar, ovo e muitos outros recheios usados no
+            sushi possuem alto nível proteico. Vitaminas e minerais são
+            encontrados na maioria dos vegetais e dos frutos do mar usado no
+            sushi. Carne de camarão, por exemplo, é rica em cálcio e iodo,
+            enquanto carne de salmão é rica em vitamina D. Gari e nori, usados
+            para fazer o sushi, são ricos em nutrientes. Outros vegetais
+            embrulhados junto com o arroz também oferecem várias outras
+            vitaminas e minerais. Carboidratos são encontrados no arroz e nos
+            vegetais.
+          </p>
+          <article>
+            <p>Arroz Culinária Japonesa</p>
+            <address>
+              <a
+                href="https://www.blueville.com.br/produtos/34/arroz-culinaria-japonesa.html"
+              ></a>
+            </address>
+            <div class="divtabela3">
+              <div>
+                <figure class="figuretabela">
+                  <img
+                    src="assets/images/Blue_Ville_ Arroz_para_Sushi.jpg"
+                    width="250"
+                    alt="Saco de Arroz Blue Ville Culinária Japonesa é especial para sushi 1kg tipo 1 com dominio da cor vermelho com foto de alguns sushis "
+                  />
+                  <figcaption>
+                    Saco de Arroz Blue Ville Culinária Japonesa é especial para
+                    sushi
+                  </figcaption>
+                </figure>
+              </div>
+              <div>
+                <table
+                  class="tabelaformato"
+                  summary="Valores diários de referência com base em uma dieta de duas mil e quinhetas Kcal"
+                >
+                  <caption>
+                    Tabela Nutricional
+                  </caption>
+                  <thead>
+                    <tr>
+                      <th title="Item">Item</th>
+                      <th title="Quantidade">Quantidade</th>
+                      <th title="Percentual para valores diários">% VD</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Valor Energético</td>
+                      <td>173 Kcal = 728 kJ</td>
+                      <td>9%</td>
+                    </tr>
+                    <tr>
+                      <td>Carboidratos</td>
+                      <td>39g</td>
+                      <td>13%</td>
+                    </tr>
+                    <tr>
+                      <td>Proteínas</td>
+                      <td>3,5g</td>
+                      <td>5%</td>
+                    </tr>
+                    <tr>
+                      <td>Gorduras Totais</td>
+                      <td>0g</td>
+                      <td>0</td>
+                    </tr>
+                    <tr>
+                      <td>Gorduras Saturadas</td>
+                      <td>0g</td>
+                      <td>0</td>
+                    </tr>
+                    <tr>
+                      <td>Gorduras Trans</td>
+                      <td>0g</td>
+                      <td>Valor não significativo.</td>
+                    </tr>
+                    <tr>
+                      <td>Fibra Alimentar</td>
+                      <td>0,8g</td>
+                      <td>3%</td>
+                    </tr>
+                    <tr>
+                      <td>Sódio</td>
+                      <td>6,0mg</td>
+                      <td>0</td>
+                    </tr>
+                    <tr>
+                      <td colspan="3">Não contém glutén.</td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <td colspan="3">
+                      Fonte
+                      <a
+                        href="http://https://www.blueville.com.br/produtos/34/arroz-culinaria-japonesa.html"
+                        >Blue Ville</a
+                      >
+                    </td>
+                  </tfoot>
+                </table>
+              </div>
+              <div>
+                <p>
+                  O Arroz Blue Ville Culinária Japonesa é especial para sushi.
+                </p>
+                <p>
+                  É um arroz de grão curto, muito popular entre a colônia
+                  japonesa justamente por formar a liga certa para as inúmeras
+                  receitas onde é utilizado. O Arroz Blue Ville para Culinária
+                  Japonesa é ingrediente básico para quem quer fazer, entre
+                  outros pratos típicos, sushis, takikomi-goham (arroz com
+                  frango e legumes) e aomame-gohan (arroz com ervilhas) sem
+                  erros.
+                </p>
+                <p>
+                  O Arroz Blue Ville Culinária Japonesa pode ser encontrado em
+                  pacotes de 1Kg.
+                </p>
+                <p>
+                  <b>Curiosidades</b><br />
+                  Dizer que o arroz é a base da culinária no Japão não é
+                  exagero. Lá, ele é consumido no café da manhã, almoço, jantar
+                  e entre as refeições também.
+                </p>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section>
+          <h2 id="riscos_de_saúde">Riscos de saúde</h2>
+          <p>
+            Como muitos alimentos que utilizam frutos do mar e peixes, o sushi
+            não está livre de riscos de saúde. Alguns peixes grandes, como atum
+            (especialmente rabilho), pode estar contaminados com altos níveis de
+            mercúrio. Isso se deve ao fato de o atum estar no topo de sua cadeia
+            alimentar: logo, ele acumula a contaminação dos peixes menores
+            quando os consome. Assim, o atum, e outros peixes podem causar
+            intoxicação por mercúrio se consumidos em alta quantidade.
+          </p>
+          <p>
+            Infecções por parasitas são raras. Os japoneses costumam congelar à
+            noite todos os peixes antes de os comer para evitar serem infectados
+            por parasitas, particularmente o anisakis.
+          </p>
+          <p>
+            Também é de se considerar os riscos de reações alérgicas aos frutos
+            do mar ou aos temperos utilizados.
+          </p>
+          <p>
+            Uma outra preocupação é a contaminação por bactérias, principalmente
+            da família dos coliformes, pois é tradicional o prato se preparar
+            com as "mãos nuas", pois, segundo os puristas, o uso de luvas ou a
+            lavagem das mãos com detergentes bactericidas altera o sabor do
+            sushi. Existindo, ainda, como fontes de contaminação, o
+            armazenamento dos ingredientes, a limpeza do local onde é preparado,
+            bem como a limpeza dos utensílios utilizados. Os males variam desde
+            uma indigestão leve até, em casos mais graves, complicações como
+            diarreia, úlceras e até mesmo o óbito.
+          </p>
+          <p>
+            Outras formas de sushi, mais notavelmente as que usam peixes
+            venenosos (como Tetraodontidae), podem causar graves envenenamentos
+            se não forem devidamente preparadas. O fugu, particularmente, tem
+            uma dose letal de tetrodotoxina em seus órgãos internos e precisa
+            ser preparado por um cozinheiro licenciado e qualificado por um
+            exame nacional do Japão.
+          </p>
+        </section>
+        <section>
+          <figure>
+            <img
+              src="assets/images/Sushichef.jpg"
+              width="250"
+              alt="Homem em pé atrás de balcão da altura de mesa que possui expositor de vidro ocupando parte do tampo com os ingredientes para fazer sushi em destaques vários tipos de peixes. "
+            />
+            <figcaption>
+              Chef preparando nigirizushi em Quioto, no Japão
+            </figcaption>
+          </figure>
+          <h2 id="apresentacao">Apresentação</h2>
+          <p>
+            Tradicionalmente, o sushi é servido no estilo minimalista e
+            geométrico japonês, em bandejas de plástico ou madeira, dependendo
+            das qualidades estéticas do local.
+          </p>
+          <p>
+            Muitos restaurantes de sushi oferecem pratos com preços fixos
+            escolhidos pelo chef dependendo do dia. Alguns desses pratos são
+            classificados como: shō-chiku-bai (松竹梅), shō/matsu (松, pine),
+            chiku/take (竹, bamboo) ebai/ume (梅, ume), sendo o matsu o mais
+            caro e o ume o mais barato.
+          </p>
+          <p>
+            No Japão, e cada vez mais no exterior, o sushi é servido na forma
+            conhecida como kaiten zushi, um estilo de fast-food japonês no qual
+            os pratos são dispostos em balcões giratórios pelo qual os pratos
+            passam e onde as pessoas podem se servir. Nesse sistema, os preços
+            são definidos pela cor dos pratos no qual os alimentos estão. No
+            final da refeição o atendente calcula o valor da conta pelo número
+            de pratos sobre a mesa do cliente e suas cores. Restaurantes mais
+            modernos colocam chipes de RFID nos pratos para se calcular
+            automaticamente a conta.
+          </p>
+        </section>
+        <section>
+          <figure>
+            <img
+              src="assets/images/Oriental_food_from_brasil.JPG"
+              width="250"
+              alt="Duas pessoas em pé com prato na mão esquerda e hashi na direita comendo sushi atrás de uma mesa grande com com várias travessas com vários tipos sushi "
+            />
+            <figcaption>Diversos tipos de sushi</figcaption>
+          </figure>
+          <h2 id="tipos_de_sushi">Tipos de sushi</h2>
+          <p>
+            O ingrediente comum em todos os diferentes tipos de sushis é o arroz
+            de sushi. A variedade aparece na escolha dos recheios e coberturas,
+            na escolha de outros condimentos e na maneira em que são montados.
+            Os mesmos ingredientes podem ser montados de formas inteiramente
+            diferentes para a obtenção de efeitos totalmente diferentes. Esta
+            seção lista as diferentes formas de construir o sushi,
+            independentemente dos tipos de recheio e cobertura.
+          </p>
+          <ul>
+            <li>
+              Makizushi (巻き寿司; lit. "sushi enrolado") ou norimaki (海苔巻き;
+              lit. "rolo de nori", também utilizado para designar outros pratos)
+              é um pedaço cilíndrico, formado com a ajuda de uma esteira
+              enrolável de bambu, chamada makisu ou sudare. O makizushi é
+              geralmente embrulhado em nori, uma folha de alga marinha
+              desidratada que abriga o arroz e o recheio.
+              <ul>
+                <li>
+                  Futomaki (rolinhos grandes). 太巻き. Cilíndrico e grande, é um
+                  dos sushis mais populares. Possui como recheio uma variada
+                  combinação de peixes, folhas e raízes. Tendo tradicionalmente
+                  recheios ímpares, é um dos mais apreciados em festivais e
+                  datas comemorativas.
+                </li>
+                <li>
+                  Hosomaki (rolinhos finos). 細巻き. Um pedaço cilíndrico fino,
+                  com o nori na parte externa. O hosomaki típico tem por volta
+                  de dois centímetros de espessura e dois centímetros de
+                  largura. Eles são geralmente feitos com apenas um recheio,
+                  simplesmente porque não há espaço suficiente para mais de um.
+                </li>
+                <li>
+                  Kappamaki. 河童巻き. Hosomaki recheado apenas com pepino em
+                  tiras é um dos mais tradicionais sushis. Foi batizado dessa
+                  forma em homenagem ao Kappa, figura folclórica japonesa, que
+                  tinha o pepino como seu alimento preferido.
+                </li>
+                <li>
+                  Tekkamaki. 鉄火巻き. Tendo, como recheio, o atum, é uma das
+                  variantes mais conhecidas de hosomaki.
+                </li>
+                <li>
+                  Temaki (rolinhos de mão). 手巻き. Um pedaço grande em formato
+                  de cone, com o nori na parte externa e os ingredientes até à
+                  boca da extremidade larga. Um temaki típico tem por volta de
+                  dez centímetros de comprimento, e é comido com as mãos, já que
+                  é muito estranho pegá-lo com palitinhos.
+                </li>
+                <li>
+                  Uramaki (enrolado ao contrário). 裏巻き. Um pedaço cilíndrico
+                  médio, com dois ou mais recheios. Uramaki diferencia-se dos
+                  outros maki porque o arroz está na parte externa e o nori na
+                  interna. O recheio fica no centro, rodeado por uma camada de
+                  nori, uma camada de arroz e uma cobertura de outro
+                  ingrediente, como ovas de peixe ou sementes de gergelim
+                  torradas. No Japão, "rolo invertido" seria, na verdade,
+                  gyakumaki.
+                </li>
+              </ul>
+            </li>
+            <li>
+              Oshizushi (sushi prensado). 押し寿司. Um pedaço em forma de bloco
+              usando um molde de madeira, chamado oshibako. O chef alinha o
+              fundo do oshibako com a cobertura, cobre-o com arroz de sushi e
+              pressiona a tampa do molde para baixo para criar um bloco compacto
+              e retilíneo. O bloco é removido do molde e cortado em pedaços que
+              cabem na boca.
+            </li>
+            <li>
+              Nigirizushi (sushi feito à mão). 握り寿司. Pequenos pedaços
+              ligeiramente similares ao sushi prensado ou sushi enrolado, mas
+              feito sem a utilização de makisu ou oshibako. Montar um
+              nigirizushi é surpreendentemente difícil de fazer da forma
+              correta. A forma mais simples é um pequeno bloco de arroz de sushi
+              com uma lasca de wasabi e uma camada fina de uma cobertura
+              colocada sobre ele, possivelmente amarrada com uma tira fina de
+              nori.
+              <ul>
+                <li>
+                  Gunkanzushi (sushi "navio de guerra"). 軍艦寿司. Também
+                  conhecido como gunkanmaki, é um sushi pequeno, ovalado,
+                  similar em tamanho e aparência ao hosomaki. Um punhado de
+                  arroz é embrulhado à mão em uma tira de nori, mas, ao invés de
+                  o recheio, ficar no centro, tem alguns ingredientes — como
+                  ovas de peixe — empilhados no topo.
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <figure>
+            <img
+              src="assets/images/Several_types_of_prepackaged_sushi.jpg"
+              width="250"
+              alt="Várias embalagens fechadas de plástico transparente com sushi sendo expostas em um balção refrigerado. "
+            />
+            <figcaption>sushi pré-embalado</figcaption>
+          </figure>
+          <p>
+            O sushi Joe é considerado um Gunkan, pois tem salmão picado na faca
+            com maionese como cobertura, mas ao invés da alga, usa-se o salmão
+            envolto no arroz. Cebolinha picada para finalizar.
+          </p>
+          <ul>
+            <li>
+              Inarizushi (sushi recheado). 稲荷寿司. Um pequeno pacote ou
+              bolsinha cheia de arroz de sushi e outros ingredientes. O pacote é
+              confeccionado de tofu bem frito (油揚げ ou abura age), uma omelete
+              fina (帛紗寿司 ou fukusazushi), ou folhas de repolho (干瓢 ou
+              kanpyo).
+            </li>
+            <li>
+              Chirashizushi (sushi espalhado). 散らし寿司. Uma tigela de arroz
+              de sushi com outros ingredientes misturados. Também conhecido como
+              barazushi. ばら寿司.
+              <ul>
+                <li>
+                  Edomae chirashizushi (sushi espalhado no estilo Edo).
+                  Ingredientes crus arranjados de forma artística em cima do
+                  arroz na tigela.
+                </li>
+                <li>
+                  Gomokuzushi (sushi no estilo cansai). 五目寿司. Ingredientes
+                  cozidos ou crus misturados no meio do arroz na tigela.
+                </li>
+              </ul>
+            </li>
+            <li>
+              Narezushi (なれ鮨) é uma forma mais antiga de sushi. Um peixe é
+              recheado com sal após seus órgãos e escamas serem removidos. Estes
+              peixes são colocados em um barril de madeira mergulhados em sal e
+              comprimidos com um tsukemonoishi pesado ou uma pedra específica.
+              Eles são fermentados por entre dez dias e um mês. Então esses
+              peixes são colocados na água por entre 15 minutos e uma hora. Os
+              peixes são então colocados em outro barril, encaixados e colocados
+              em camadas com arroz cozido no vapor e peixe resfriados. Então
+              eles são novamente selados de forma parcial com otosibuta e uma
+              pedra específica. Conforme os dias passarem, a água fermentada
+              deve ser retirada. Seis meses depois, esses funazushi podem ser
+              comidos, podendo também durar mais de seis meses.
+            </li>
+          </ul>
+        </section>
+        <p></p>
+      </main>
+      <div class="div-acompanha">
+        <nav id="main-summary" aria-label="Sumário">
+          <h2>Sumário</h2>
+          <ul>
+            <li><a href="#topo_da_pagina">Início</a></li>
+            <li><a href="#historia">História</a></li>
+            <li><a href="#riscos_de_saúde">Riscos de saúde</a></li>
+            <li><a href="#apresentacao">Apresentação</a></li>
+            <li><a href="#tipos_de_sushi">Tipos de sushi</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <footer>
+      <span
+        >&copy 2026 Dio Formação HTML Web Developer - Desafio de projeto - HTML
+        II: Ampliando o Conhecimento - Recriando o Wikipedia com Layout
+        Moderno</span
+      >
+    </footer>
+  </body>
+</html>
